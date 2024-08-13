@@ -8,6 +8,7 @@
  */
 
 defined( 'ABSPATH' ) || exit;
+define('APP_PATH',dirname(__FILE__));
 
 /**
  * Set the content width based on the theme's design and stylesheet.
@@ -33,3 +34,6 @@ add_filter('date_i18n', function ($date, $format, $timestamp, $gmt) {
  * @since 1.0.0
  */
 require trailingslashit( get_template_directory() ) . 'inc/init.php';
+
+include APP_PATH.'/inc/customs.php';
+include APP_PATH.'/inc/ajax.php';
