@@ -1,0 +1,874 @@
+=== START import 2024-08-05 17:40:54 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+Document post type registered
+Document post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing documents...
+3 Documents imported
+Importing documents...
+[ERROR] Can't copy https://gtt.fr/sites/default/files/GTT_URD_2021_ESEF_Inline_Viewer_1.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2022/04/GTT_URD_2021_ESEF_Inline_Viewer_1.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/2023-037000.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2023/05/2023-037000.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/969500BVOHVZUUFWDT54-2023-12-31AR.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2024/04/969500BVOHVZUUFWDT54-2023-12-31AR.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/2023-037000.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2023/05/2023-037000.html : Not a media
+1069 Documents imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-05 17:41:28 ===
+
+=== START import 2024-08-06 08:43:27 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+Document post type registered
+Document post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing documents...
+0 Documents imported
+Importing documents...
+0 Documents imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 08:43:27 ===
+
+=== START save 2024-08-06 09:29:06 ===
+Settings saved
+=== END save 2024-08-06 09:29:06 ===
+
+=== START import 2024-08-06 09:29:08 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+Document post type registered
+Document post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing documents...
+0 Documents imported
+Importing documents...
+0 Documents imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 09:29:08 ===
+
+=== START import 2024-08-06 09:30:23 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+Document post type registered
+Document post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing documents...
+3 Documents imported
+Importing documents...
+[ERROR] Can't copy https://gtt.fr/sites/default/files/GTT_URD_2021_ESEF_Inline_Viewer_1.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2022/04/GTT_URD_2021_ESEF_Inline_Viewer_1.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/2023-037000.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2023/05/2023-037000.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/969500BVOHVZUUFWDT54-2023-12-31AR.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2024/04/969500BVOHVZUUFWDT54-2023-12-31AR.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/2023-037000.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2023/05/2023-037000.html : Not a media
+1069 Documents imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 09:30:56 ===
+
+=== START save 2024-08-06 10:17:09 ===
+Settings saved
+=== END save 2024-08-06 10:17:09 ===
+
+=== START import 2024-08-06 10:17:17 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+News taxonomy registered
+News post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing news...
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-2015-07-21-cp-ven2.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/07/gtt-2015-07-21-cp-ven2.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-inside-july-2015.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/gtt-inside-july-2015.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://www.gtt.fr/wp-content/uploads/2014/12/CP-pagbilao-Sengkang.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/CP-pagbilao-Sengkang.pdf : Not Found
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/20151019-cp_9m_2015_vgb.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/10/20151019-cp_9m_2015_vgb.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/201511_gtt-inside.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/11/201511_gtt-inside.pdf : cURL error 28: Connection timeout after 10000 ms
+[ERROR] Can't copy http://www.nfpa.org/assets/files/AboutTheCodes/59a/TIA_59a_16_1.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/TIA_59a_16_1.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2015-180216_ang_0.pdf (node ID=612) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/ir-cp-fy2015-180216_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg7_-_february_2016_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/gtt_inside_ndeg7_-_february_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12016-12042016_ang_0.pdf (node ID=646) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/ir-cp-t12016-12042016_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ddr_vf.pdf (node ID=668) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ddr_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ag_vf.pdf (node ID=669) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ag_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg8_-_june_2016.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/06/gtt_inside_ndeg8_-_june_2016.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12016-21_07_2016_0.pdf (node ID=730) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/07/ir-cp-h12016-21_07_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg9_-january.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/01/gtt_inside_ndeg9_-january.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-230217-resultats_annuels_2016.pdf (node ID=818) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/02/ir-cp-230217-resultats_annuels_2016.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/file:///C:/Users/cos/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/clip_image001.png : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside-ndeg10_april2017.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/gtt_inside-ndeg10_april2017.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12017_v11042017_fr.pdf (node ID=858) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/ir-cp-t12017_v11042017_fr.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12017-20_07_2017_13h15_clean.pdf (node ID=925) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/07/ir-cp-h12017-20_07_2017_13h15_clean.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp_q32017-draft_18102017_fr_0.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-cp_q32017-draft_18102017_fr_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-pst-q32017_-_20171018.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-pst-q32017_-_20171018.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg11_-_october_2017.pdf (node ID=954) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/gtt_inside_ndeg11_-_october_2017.pdf : Not Found
+[ERROR] Can't copy http://www.lngworldshipping.com/news/view,gtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/11/viewgtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm : cURL error 56: Recv failure: Connection reset by peer
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/pr_commandes_2018_16_02_2018_vdef.pdf (node ID=994) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/pr_commandes_2018_16_02_2018_vdef.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2017-1602018_fr.pdf (node ID=995) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/ir-cp-fy2017-1602018_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/gtt-inside_march_2018.pdf (node ID=1005) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/03/gtt-inside_march_2018.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-cp-t12018_12042018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/04/ir-cp-t12018_12042018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-h12018-26_07_2018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-pr-h12018-26_07_2018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-investor_presentation_-_h1_2018_27072018.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-investor_presentation_-_h1_2018_27072018.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp_q32018-26102018_fr.pdf (node ID=1177) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/10/ir-cp_q32018-26102018_fr.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/welding_productivity_-_shipping_news_-_abbe_miller.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/welding_productivity_-_shipping_news_-_abbe_miller.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/european_ceo_-_interview_philippe_berterottiere_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/european_ceo_-_interview_philippe_berterottiere_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_steady_the_ship.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/01/012019_lng_industry_steady_the_ship.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_forming_a_figurehead_for_change.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/012019_lng_industry_forming_a_figurehead_for_change.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_bunkersport_pressure_points.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_bunkersport_pressure_points.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-fy2018-2602019_en_0.pdf (node ID=1257) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/ir-pr-fy2018-2602019_en_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/03/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-t12019_16042019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/ir-pr-t12019_16042019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_-_gtt_march2019.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/lng_industry_-_gtt_march2019.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-h12019-25_07_2019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/07/ir-pr-h12019-25_07_2019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr//sites/gtt/files/ir-pr-q32019-17_10_2019_en_def.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/10/ir-pr-q32019-17_10_2019_en_def.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf (node ID=1436) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/11/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2019-27_02_2020_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/02/ir-cp-fy2019-27_02_2020_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q12020_17042020.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/04/ir-pr-q12020_17042020.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q3_2020-28_10_2020_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/10/ir-pr-q3_2020-28_10_2020_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2020-18_02_2021_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2021/02/ir-cp-fy2020-18_02_2021_fr.pdf : Not Found
+612 News imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+19 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 10:18:26 ===
+
+=== START save 2024-08-06 10:51:57 ===
+Settings saved
+=== END save 2024-08-06 10:51:57 ===
+
+=== START import 2024-08-06 10:51:58 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+News taxonomy registered
+News post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing news...
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-2015-07-21-cp-ven2.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/07/gtt-2015-07-21-cp-ven2.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-inside-july-2015.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/gtt-inside-july-2015.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://www.gtt.fr/wp-content/uploads/2014/12/CP-pagbilao-Sengkang.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/CP-pagbilao-Sengkang.pdf : Not Found
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/20151019-cp_9m_2015_vgb.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/10/20151019-cp_9m_2015_vgb.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/201511_gtt-inside.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/11/201511_gtt-inside.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://www.nfpa.org/assets/files/AboutTheCodes/59a/TIA_59a_16_1.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/TIA_59a_16_1.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2015-180216_ang_0.pdf (node ID=612) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/ir-cp-fy2015-180216_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg7_-_february_2016_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/gtt_inside_ndeg7_-_february_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12016-12042016_ang_0.pdf (node ID=646) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/ir-cp-t12016-12042016_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ddr_vf.pdf (node ID=668) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ddr_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ag_vf.pdf (node ID=669) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ag_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg8_-_june_2016.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/06/gtt_inside_ndeg8_-_june_2016.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12016-21_07_2016_0.pdf (node ID=730) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/07/ir-cp-h12016-21_07_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg9_-january.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/01/gtt_inside_ndeg9_-january.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-230217-resultats_annuels_2016.pdf (node ID=818) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/02/ir-cp-230217-resultats_annuels_2016.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/file:///C:/Users/cos/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/clip_image001.png : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside-ndeg10_april2017.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/gtt_inside-ndeg10_april2017.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12017_v11042017_fr.pdf (node ID=858) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/ir-cp-t12017_v11042017_fr.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12017-20_07_2017_13h15_clean.pdf (node ID=925) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/07/ir-cp-h12017-20_07_2017_13h15_clean.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp_q32017-draft_18102017_fr_0.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-cp_q32017-draft_18102017_fr_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-pst-q32017_-_20171018.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-pst-q32017_-_20171018.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg11_-_october_2017.pdf (node ID=954) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/gtt_inside_ndeg11_-_october_2017.pdf : Not Found
+[ERROR] Can't copy http://www.lngworldshipping.com/news/view,gtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/11/viewgtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm : cURL error 56: Recv failure: Connection reset by peer
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/pr_commandes_2018_16_02_2018_vdef.pdf (node ID=994) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/pr_commandes_2018_16_02_2018_vdef.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2017-1602018_fr.pdf (node ID=995) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/ir-cp-fy2017-1602018_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/gtt-inside_march_2018.pdf (node ID=1005) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/03/gtt-inside_march_2018.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-cp-t12018_12042018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/04/ir-cp-t12018_12042018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-h12018-26_07_2018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-pr-h12018-26_07_2018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-investor_presentation_-_h1_2018_27072018.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-investor_presentation_-_h1_2018_27072018.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp_q32018-26102018_fr.pdf (node ID=1177) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/10/ir-cp_q32018-26102018_fr.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/welding_productivity_-_shipping_news_-_abbe_miller.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/welding_productivity_-_shipping_news_-_abbe_miller.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/european_ceo_-_interview_philippe_berterottiere_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/european_ceo_-_interview_philippe_berterottiere_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_steady_the_ship.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/01/012019_lng_industry_steady_the_ship.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_forming_a_figurehead_for_change.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/012019_lng_industry_forming_a_figurehead_for_change.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_bunkersport_pressure_points.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_bunkersport_pressure_points.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-fy2018-2602019_en_0.pdf (node ID=1257) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/ir-pr-fy2018-2602019_en_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/03/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-t12019_16042019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/ir-pr-t12019_16042019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_-_gtt_march2019.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/lng_industry_-_gtt_march2019.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-h12019-25_07_2019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/07/ir-pr-h12019-25_07_2019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr//sites/gtt/files/ir-pr-q32019-17_10_2019_en_def.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/10/ir-pr-q32019-17_10_2019_en_def.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf (node ID=1436) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/11/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2019-27_02_2020_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/02/ir-cp-fy2019-27_02_2020_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q12020_17042020.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/04/ir-pr-q12020_17042020.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q3_2020-28_10_2020_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/10/ir-pr-q3_2020-28_10_2020_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2020-18_02_2021_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2021/02/ir-cp-fy2020-18_02_2021_fr.pdf : Not Found
+612 News imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 10:52:55 ===
+
+=== START import 2024-08-06 12:03:34 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+News taxonomy registered
+News post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing news...
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-2015-07-21-cp-ven2.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/07/gtt-2015-07-21-cp-ven2.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-inside-july-2015.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/gtt-inside-july-2015.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://www.gtt.fr/wp-content/uploads/2014/12/CP-pagbilao-Sengkang.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/CP-pagbilao-Sengkang.pdf : Not Found
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/20151019-cp_9m_2015_vgb.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/10/20151019-cp_9m_2015_vgb.pdf : cURL error 28: Connection timeout after 10000 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/201511_gtt-inside.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/11/201511_gtt-inside.pdf : cURL error 28: Connection timeout after 10000 ms
+[ERROR] Can't copy http://www.nfpa.org/assets/files/AboutTheCodes/59a/TIA_59a_16_1.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/TIA_59a_16_1.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2015-180216_ang_0.pdf (node ID=612) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/ir-cp-fy2015-180216_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg7_-_february_2016_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/gtt_inside_ndeg7_-_february_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12016-12042016_ang_0.pdf (node ID=646) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/ir-cp-t12016-12042016_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ddr_vf.pdf (node ID=668) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ddr_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ag_vf.pdf (node ID=669) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ag_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg8_-_june_2016.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/06/gtt_inside_ndeg8_-_june_2016.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12016-21_07_2016_0.pdf (node ID=730) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/07/ir-cp-h12016-21_07_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg9_-january.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/01/gtt_inside_ndeg9_-january.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-230217-resultats_annuels_2016.pdf (node ID=818) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/02/ir-cp-230217-resultats_annuels_2016.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/file:///C:/Users/cos/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/clip_image001.png : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside-ndeg10_april2017.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/gtt_inside-ndeg10_april2017.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12017_v11042017_fr.pdf (node ID=858) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/ir-cp-t12017_v11042017_fr.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12017-20_07_2017_13h15_clean.pdf (node ID=925) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/07/ir-cp-h12017-20_07_2017_13h15_clean.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp_q32017-draft_18102017_fr_0.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-cp_q32017-draft_18102017_fr_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-pst-q32017_-_20171018.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-pst-q32017_-_20171018.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg11_-_october_2017.pdf (node ID=954) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/gtt_inside_ndeg11_-_october_2017.pdf : Not Found
+[ERROR] Can't copy http://www.lngworldshipping.com/news/view,gtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/11/viewgtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm : cURL error 56: Recv failure: Connection reset by peer
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/pr_commandes_2018_16_02_2018_vdef.pdf (node ID=994) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/pr_commandes_2018_16_02_2018_vdef.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2017-1602018_fr.pdf (node ID=995) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/ir-cp-fy2017-1602018_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/gtt-inside_march_2018.pdf (node ID=1005) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/03/gtt-inside_march_2018.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-cp-t12018_12042018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/04/ir-cp-t12018_12042018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-h12018-26_07_2018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-pr-h12018-26_07_2018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-investor_presentation_-_h1_2018_27072018.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-investor_presentation_-_h1_2018_27072018.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp_q32018-26102018_fr.pdf (node ID=1177) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/10/ir-cp_q32018-26102018_fr.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/welding_productivity_-_shipping_news_-_abbe_miller.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/welding_productivity_-_shipping_news_-_abbe_miller.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/european_ceo_-_interview_philippe_berterottiere_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/european_ceo_-_interview_philippe_berterottiere_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_steady_the_ship.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/01/012019_lng_industry_steady_the_ship.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_forming_a_figurehead_for_change.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/012019_lng_industry_forming_a_figurehead_for_change.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_bunkersport_pressure_points.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_bunkersport_pressure_points.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-fy2018-2602019_en_0.pdf (node ID=1257) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/ir-pr-fy2018-2602019_en_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/03/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-t12019_16042019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/ir-pr-t12019_16042019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_-_gtt_march2019.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/lng_industry_-_gtt_march2019.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-h12019-25_07_2019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/07/ir-pr-h12019-25_07_2019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr//sites/gtt/files/ir-pr-q32019-17_10_2019_en_def.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/10/ir-pr-q32019-17_10_2019_en_def.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf (node ID=1436) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/11/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2019-27_02_2020_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/02/ir-cp-fy2019-27_02_2020_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q12020_17042020.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/04/ir-pr-q12020_17042020.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q3_2020-28_10_2020_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/10/ir-pr-q3_2020-28_10_2020_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2020-18_02_2021_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2021/02/ir-cp-fy2020-18_02_2021_fr.pdf : Not Found
+612 News imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 12:04:39 ===
+
+=== START save 2024-08-06 12:59:30 ===
+Settings saved
+=== END save 2024-08-06 12:59:30 ===
+
+=== START import 2024-08-06 12:59:31 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+Document post type registered
+Document post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing documents...
+3 Documents imported
+Importing documents...
+[ERROR] Can't copy https://gtt.fr/sites/default/files/GTT_URD_2021_ESEF_Inline_Viewer_1.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2022/04/GTT_URD_2021_ESEF_Inline_Viewer_1.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/2023-037000.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2023/05/2023-037000.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/969500BVOHVZUUFWDT54-2023-12-31AR.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2024/04/969500BVOHVZUUFWDT54-2023-12-31AR.html : Not a media
+[ERROR] Can't copy https://gtt.fr/sites/default/files/2023-037000.html to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2023/05/2023-037000.html : Not a media
+1069 Documents imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 13:00:05 ===
+
+=== START save 2024-08-06 13:24:34 ===
+Settings saved
+=== END save 2024-08-06 13:24:34 ===
+
+=== START import 2024-08-06 13:24:38 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+News taxonomy registered
+Image post type registered
+News post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing images...
+=== START import 2024-08-06 13:26:01 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+News taxonomy registered
+Image post type registered
+News post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing images...
+[ERROR] The import process is still running. Please wait before running it again.
+0 Images imported
+Importing news...
+0 News imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 13:26:03 ===
+
+=== START save 2024-08-06 13:27:18 ===
+Settings saved
+=== END save 2024-08-06 13:27:18 ===
+
+=== START import 2024-08-06 13:27:24 ===
+Connected with success to the Drupal database
+Drupal data found:
+0 articles
+0 pages
+0 categories
+0 tags
+10 users
+0 comments
+27 Document
+2 Events
+0 Jobs
+2 News
+0 Audio
+3 Document
+852 Image
+24 Remote video
+0 Video
+1069 Document
+37 Event
+2 Landing Page
+16 Media
+0 Tableau
+612 News
+123 Page CMS
+0 Webform
+
+[WARNING] Your Drupal database contains Entity Reference relationships. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/entityreference/" target="_blank">Entity Reference add-on</a> to import them.
+[WARNING] Your Drupal database contains webforms. You need the <a href="https://www.fredericgilles.net/fg-drupal-to-wordpress/webform/" target="_blank">Webform add-on</a> to import them.
+HTTP connection successful
+News taxonomy registered
+News post type registered
+Importing categories...
+0 categories imported
+Importing tags...
+0 tags imported
+Importing taxo_document...
+0 Document imported
+Importing taxo_events...
+0 Events imported
+Importing taxo_jobs...
+0 Jobs imported
+Importing taxo_news...
+0 News imported
+Importing pages...
+0 pages imported
+Importing news...
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-2015-07-21-cp-ven2.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/07/gtt-2015-07-21-cp-ven2.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/gtt-inside-july-2015.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/gtt-inside-july-2015.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://www.gtt.fr/wp-content/uploads/2014/12/CP-pagbilao-Sengkang.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/09/CP-pagbilao-Sengkang.pdf : Not Found
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/20151019-cp_9m_2015_vgb.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/10/20151019-cp_9m_2015_vgb.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://gtt.clients.smile.fr/sites/gtt/files/201511_gtt-inside.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2015/11/201511_gtt-inside.pdf : cURL error 28: Connection timeout after 10001 ms
+[ERROR] Can't copy http://www.nfpa.org/assets/files/AboutTheCodes/59a/TIA_59a_16_1.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/TIA_59a_16_1.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2015-180216_ang_0.pdf (node ID=612) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/ir-cp-fy2015-180216_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg7_-_february_2016_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/02/gtt_inside_ndeg7_-_february_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12016-12042016_ang_0.pdf (node ID=646) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/ir-cp-t12016-12042016_ang_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ddr_vf.pdf (node ID=668) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ddr_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/cp_ag_vf.pdf (node ID=669) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/04/cp_ag_vf.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg8_-_june_2016.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/06/gtt_inside_ndeg8_-_june_2016.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12016-21_07_2016_0.pdf (node ID=730) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2016/07/ir-cp-h12016-21_07_2016_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg9_-january.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/01/gtt_inside_ndeg9_-january.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-230217-resultats_annuels_2016.pdf (node ID=818) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/02/ir-cp-230217-resultats_annuels_2016.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/file:///C:/Users/cos/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/clip_image001.png : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside-ndeg10_april2017.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/gtt_inside-ndeg10_april2017.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-t12017_v11042017_fr.pdf (node ID=858) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/04/ir-cp-t12017_v11042017_fr.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-h12017-20_07_2017_13h15_clean.pdf (node ID=925) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/07/ir-cp-h12017-20_07_2017_13h15_clean.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp_q32017-draft_18102017_fr_0.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-cp_q32017-draft_18102017_fr_0.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-pst-q32017_-_20171018.pdf (node ID=945) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/ir-pst-q32017_-_20171018.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/gtt_inside_ndeg11_-_october_2017.pdf (node ID=954) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/10/gtt_inside_ndeg11_-_october_2017.pdf : Not Found
+[ERROR] Can't copy http://www.lngworldshipping.com/news/view,gtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2017/11/viewgtt-hails-the-era-of-lng-fuel-with-cma-cgm-tank-deal_49814.htm : cURL error 56: Recv failure: Connection reset by peer
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/pr_commandes_2018_16_02_2018_vdef.pdf (node ID=994) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/pr_commandes_2018_16_02_2018_vdef.pdf : Not Found
+[ERROR] Can't copy http://www.gtt.fr/sites/gtt/files/ir-cp-fy2017-1602018_fr.pdf (node ID=995) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/02/ir-cp-fy2017-1602018_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/gtt-inside_march_2018.pdf (node ID=1005) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/03/gtt-inside_march_2018.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-cp-t12018_12042018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/04/ir-cp-t12018_12042018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-h12018-26_07_2018_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-pr-h12018-26_07_2018_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-investor_presentation_-_h1_2018_27072018.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/08/ir-investor_presentation_-_h1_2018_27072018.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp_q32018-26102018_fr.pdf (node ID=1177) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/10/ir-cp_q32018-26102018_fr.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/marine_oceans_-_entretien_avec_philippe_berterottiere_-_q4_2018_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/la_jaune_et_la_rouge_-_le_gnl_et_le_transport_maritime_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/lng_industry_sept_2018_-_searching_for_solutions_lfs.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/welding_productivity_-_shipping_news_-_abbe_miller.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/welding_productivity_-_shipping_news_-_abbe_miller.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/revue_du_medef_-_interview_gtt_-_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/european_ceo_-_interview_philippe_berterottiere_0.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2018/12/european_ceo_-_interview_philippe_berterottiere_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_steady_the_ship.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/01/012019_lng_industry_steady_the_ship.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/012019_lng_industry_forming_a_figurehead_for_change.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/012019_lng_industry_forming_a_figurehead_for_change.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_bunkersport_pressure_points.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_bunkersport_pressure_points.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/022019_revue_des_mines_itw_philippe_berterottiere.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/022019_revue_des_mines_itw_philippe_berterottiere.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-fy2018-2602019_en_0.pdf (node ID=1257) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/02/ir-pr-fy2018-2602019_en_0.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/03/201903_cold_fact_international_gtts_membrane_technologies_provide_solution_for_lng-fueled_ships.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-t12019_16042019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/ir-pr-t12019_16042019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/lng_industry_-_gtt_march2019.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/04/lng_industry_-_gtt_march2019.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/ir-pr-h12019-25_07_2019_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/07/ir-pr-h12019-25_07_2019_en.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr//sites/gtt/files/ir-pr-q32019-17_10_2019_en_def.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/10/ir-pr-q32019-17_10_2019_en_def.pdf : Not Found
+[ERROR] Can't copy https://gtt.fr/sites/gtt/files/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf (node ID=1436) to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2019/11/20191106_beijing_enterprises_group_et_gtt_signent_un_accord_de_cooperation_clean.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2019-27_02_2020_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/02/ir-cp-fy2019-27_02_2020_fr.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q12020_17042020.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/04/ir-pr-q12020_17042020.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-pr-q3_2020-28_10_2020_en.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2020/10/ir-pr-q3_2020-28_10_2020_en.pdf : Not Found
+[ERROR] Can't copy https://www.gtt.fr/sites/gtt/files/ir-cp-fy2020-18_02_2021_fr.pdf to /var/www/new-gtt-prod/htdocs/wp-content/uploads/2021/02/ir-cp-fy2020-18_02_2021_fr.pdf : Not Found
+612 News imported
+Importing term relationships...
+Importing node relationships...
+Importing media relationships...
+0 medias imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2024-08-06 13:28:23 ===
+
