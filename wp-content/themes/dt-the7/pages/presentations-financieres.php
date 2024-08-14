@@ -19,6 +19,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
         </div>
         <img src="<?= $thumb ?>" alt="<?= get_the_title() ?>">
     </div>
+    <?php get_template_part('template-parts/list-pages-template');  ?>
 
     <div class="bloc-left">
 

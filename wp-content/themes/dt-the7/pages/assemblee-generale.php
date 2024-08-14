@@ -1,10 +1,8 @@
 <?php
 
 /**
- * Template Name: Publications techniques
+ * Template Name: Assemblée générale
  */
-
-defined('ABSPATH') || exit;
 
 get_header();
 
@@ -20,9 +18,10 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
         <img src="<?= $thumb ?>" alt="<?= get_the_title() ?>">
     </div>
     <?php get_template_part('template-parts/list-pages-template');  ?>
+
     <div class="bloc-left">
 
-        <div class="list-techniques">
+        <div class="list-presse">
             <?php
             $args = array(
                 'post_type'      => 'document',
@@ -31,12 +30,19 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                 'order'          => 'DESC',
                 'posts_per_page' => -1,
                 'meta_query'     => array(
+                    'relation' => 'OR',
                     array(
                         'key'     => 'document_type',
-                        'value'   => '52',
+                        'value'   => '84',
+                        'compare' => 'LIKE',
+                    ),
+                    array(
+                        'key'     => 'document_type',
+                        'value'   => '46',
                         'compare' => 'LIKE',
                     ),
                 ),
+            
             );
 
             $query = new WP_Query($args);
@@ -50,18 +56,18 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                     $year = get_field('doc_published_date');
                     $date = new DateTime($year);
                     $year = $date->format('Y');
-                    $month = $date->format('m');
+                    $document = get_field('document_type');
 
                     if (!isset($posts_by_year_month[$year])) {
                         $posts_by_year_month[$year] = [];
                         // var_dump($posts_by_year_month);
                     }
 
-                    if (!isset($posts_by_year_month[$year][$month])) {
-                        $posts_by_year_month[$year][$month] = [];
+                    if (!isset($posts_by_year_month[$year][$document[0]])) {
+                        $posts_by_year_month[$year][$document[0]] = [];
                     }
 
-                    $posts_by_year_month[$year][$month][] = get_the_ID();
+                    $posts_by_year_month[$year][$document[0]][] = get_the_ID();
                 }
                 wp_reset_postdata();
             }
@@ -72,17 +78,19 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
             rsort($years);
 
             foreach ($years as $year) {
-                $months = array_keys($posts_by_year_month[$year]);
-                sort($months);
+                $types = array_keys($posts_by_year_month[$year]);
+                sort($types);
 
                 echo "<p class='year'>{$year}</p>";
 
-                foreach ($months as $month) {
-                    $month_string = convertMonthNumberToFrench($month);
+                foreach ($types as $type) {
+                    $typeTring = convertType($type);
+                  
+                   ?>
+                   <p><?=$typeTring ?></p>
+                   <?php
 
-                    echo "<h3 class='month'>{$month_string}</h3>";
-
-                    foreach ($posts_by_year_month[$year][$month] as $post_id) {
+                    foreach ($posts_by_year_month[$year][$type] as $post_id) {
                         $post = get_post($post_id);
                         setup_postdata($post);
                         $date =  get_field('date_effective');
@@ -146,13 +154,13 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
 
             var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
             var data = {
-                'action': 'filter_techniques',
+                'action': 'filter_generale',
                 'year': selectedValue,
             };
             jQuery.post(ajaxurl, data, function(response) {
 
                 if (response != '') {
-                    jQuery('.list-techniques').html(response);
+                    jQuery('.list-presse').html(response);
                 }
             });
 
