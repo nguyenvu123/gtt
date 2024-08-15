@@ -57,7 +57,7 @@ foreach ($years as $year) {
         $month_string = convertMonthNumberToFrench($month);
 
         echo "<h3 class='month'>{$month_string}</h3>";
-
+        echo "<div class='list-pdf'>";
         foreach ($posts_by_year_month[$year][$month] as $post_id) {
             $post = get_post($post_id);
             $date =  get_field('date_effective');
@@ -78,6 +78,7 @@ foreach ($years as $year) {
             </div>
 <?php
         }
+        echo "</div>";
     }
 }
 

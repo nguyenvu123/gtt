@@ -77,7 +77,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                     $month_string = convertMonthNumberToFrench($month);
 
                     echo "<h3 class='month'>{$month_string}</h3>";
-                  echo "<div class='item-pdf'>";
+                    echo "<div class='list-pdf'>";
                     foreach ($posts_by_year_month[$year][$month] as $post_id) {
                         $post = get_post($post_id);
                         setup_postdata($post);
@@ -97,9 +97,10 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                             <span class="date">Publié le <?= $date ?></span>
                         </div>
             <?php
-                      echo "</div>";
+                      
                     }
                     wp_reset_postdata();
+                    echo "</div>";
                 }
             }
             ?>

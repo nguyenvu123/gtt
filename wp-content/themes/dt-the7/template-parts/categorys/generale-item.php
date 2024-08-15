@@ -65,8 +65,9 @@ foreach ($years as $year) {
         $typeTring = convertType($type);
 
         ?>
-        <p><?=$typeTring ?></p>
+        <p class="month"><?=$typeTring ?></p>
         <?php
+        echo "<div class='list-pdf'>";
         foreach ($posts_by_year_month[$year][$document[0]] as $post_id) {
             $post = get_post($post_id);
             $date =  get_field('date_effective');
@@ -87,6 +88,7 @@ foreach ($years as $year) {
             </div>
 <?php
         }
+        echo "</div>";
     }
 }
 
