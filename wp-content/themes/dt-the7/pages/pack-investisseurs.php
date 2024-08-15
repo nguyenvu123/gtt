@@ -11,12 +11,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
 
 <div id="content" class="content" role="main">
 
-    <div class="banner">
-        <div class="title">
-            <h1><?= get_the_title() ?></h1>
-        </div>
-        <img src="<?= $thumb ?>" alt="<?= get_the_title() ?>">
-    </div>
+    <?php get_template_part('template-parts/banner-list');  ?>
     <?php get_template_part('template-parts/list-pages-template');  ?>
 
     <div class="bloc-left">
@@ -59,7 +54,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                     ),
 
                 ),
-            
+
             );
 
             $query = new WP_Query($args);
@@ -102,10 +97,10 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
 
                 foreach ($types as $type) {
                     $typeTring = convertType($type);
-                  
-                   ?>
-                   <p><?=$typeTring ?></p>
-                   <?php
+
+            ?>
+                    <p><?= $typeTring ?></p>
+                    <?php
 
                     foreach ($posts_by_year_month[$year][$type] as $post_id) {
                         $post = get_post($post_id);
@@ -113,7 +108,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                         $date =  get_field('date_effective');
                         $doc_description =  get_field('doc_description');
                         $doc_document = get_field('doc_document');
-            ?>
+                    ?>
                         <div class="title-item-month">
                             <span class="icon"></span>
                             <?php if ($doc_document) { ?>

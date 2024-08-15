@@ -3,6 +3,7 @@
 function athena_scripts()
 {
 	wp_enqueue_style('custom-style-custom', get_stylesheet_directory_uri() . '/css/customs.css', array(), null);
+    wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/js/customs.js', array('jquery'), null, true);
 }
 
 add_action('wp_enqueue_scripts', 'athena_scripts');
@@ -64,3 +65,18 @@ if (function_exists('acf_add_options_page')) {
         'redirect'   => false
     ));
 }
+
+
+function add_custom_body_class($classes) {
+    // Get the current page template
+    $template = get_post_meta(get_the_ID(), '_wp_page_template', true);
+
+    // Check if the template is 'pages/essai-gratuit.php'
+    if ($template == 'pages/assemblee-generale.php' || $template == 'pack-investisseurs.php' || $template == 'pages/presentations-financieres.php' || $template == 'pages/presse.php' || $template == 'pages/publications-techniques.php') {
+        // Add custom class 'essai-gratuit' to the body classes array
+        $classes[] = 'page-list-pdf';
+    }
+
+    return $classes;
+}
+add_filter('body_class', 'add_custom_body_class');
