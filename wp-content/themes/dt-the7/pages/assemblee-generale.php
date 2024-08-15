@@ -83,7 +83,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                     $typeTring = convertType($type);
 
             ?>
-                    <p><?= $typeTring ?></p>
+                    <p class='month'><?= $typeTring ?></p>
                     <?php
                   echo "<div class='list-pdf'>";
                     foreach ($posts_by_year_month[$year][$type] as $post_id) {

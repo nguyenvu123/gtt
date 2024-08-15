@@ -206,62 +206,60 @@
     }
   }
 
-  .list-presse {
-    .year {
-      font-size: 20px;
-      font-weight: bold;
-      border-bottom: 3px solid #000;
-      margin: 24px 0 19px;
+  .year {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid #000;
+    margin: 24px 0 19px;
+    color: #333;
+  }
+
+  .month {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00aeef;
+    margin: 24px 0 0;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  .title-item-month {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 18px;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #b8b9ba;
+    }
+
+    .icon {
+      background: url(../images/icon-pdf.png) no-repeat;
+      width: 40px;
+      height: 30px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+    }
+
+    a {
+      margin-bottom: 4px;
       color: #333;
-    }
-
-    .month {
-      font-size: 18px;
       font-weight: bold;
-      color: #00aeef;
-      margin: 24px 0 0;
-      padding-bottom: 10px;
-      text-transform: capitalize;
+      display: block;
+      text-decoration: none;
+      line-height: 1.2;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
-    .title-item-month {
-      position: relative;
-      padding-left: 40px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      margin-bottom: 18px;
-
-      &:not(:last-child) {
-        border-bottom: 1px solid #b8b9ba;
-      }
-
-      .icon {
-        background: url(../images/icon-pdf.png) no-repeat;
-        width: 40px;
-        height: 30px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 0;
-      }
-
-      a {
-        margin-bottom: 4px;
-        color: #333;
-        font-weight: bold;
-        display: block;
-        text-decoration: none;
-        line-height: 1.2;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
-      .date {
-        font-size: 12px;
-        color: #333;
-      }
+    .date {
+      font-size: 12px;
+      color: #333;
     }
   }
 }

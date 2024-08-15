@@ -90,7 +90,7 @@ get_header();
                   <a href="<?= get_permalink($post_id) ?>"> <?= get_the_title($post_id) ?></a>
                   <?php
                 } ?>
-                <span>Publié le <?= $date ?></span>
+                <span class="date">Publié le <?= $date ?></span>
               </div>
               <?php
               echo "</div>";
