@@ -70,10 +70,10 @@ get_header();
 					sort($months);
 
 					echo "<p class='year'>{$year}</p>";
-
+					echo "<div class='list-pdf 123'>";
 					foreach ($months as $month) {
-						$month_string = convertMonthNumberToFrench($month);
-						echo "<div class='list-pdf'>";
+					
+						
 						foreach ($posts_by_year_month[$year][$month] as $post_id) {
 							$post = get_post($post_id);
 							setup_postdata($post);
@@ -96,8 +96,9 @@ get_header();
 
 						}
 						wp_reset_postdata();
-						echo "</div>";
+						
 					}
+					echo "</div>";
 				}
 				?>
 			</div>
