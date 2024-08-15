@@ -13,7 +13,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
 
   <?php get_template_part('template-parts/banner-list'); ?>
   <?php get_template_part('template-parts/list-pages-template'); ?>
-  <div class="wrap-list-pdf">
+  <div class="wrap-item-pdf">
     <div class="bloc-left">
 
       <div class="list-presse">
@@ -102,7 +102,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
             <p><?= $typeTring ?></p>
             <?php
 
-            echo "<div class='list-pdf'>";
+            echo "<div class='item-pdf'>";
             foreach ($posts_by_year_month[$year][$type] as $post_id) {
               $post = get_post($post_id);
               setup_postdata($post);
