@@ -16,6 +16,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
     <?php get_template_part('template-parts/banner-list');  ?>
     <?php get_template_part('template-parts/list-pages-template');  ?>
 
+  <div class="wrap-list-pdf">
     <div class="bloc-left">
 
         <div class="list-presse">
@@ -72,12 +73,11 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                 sort($months);
 
                 echo "<p class='year'>{$year}</p>";
-
                 foreach ($months as $month) {
                     $month_string = convertMonthNumberToFrench($month);
 
                     echo "<h3 class='month'>{$month_string}</h3>";
-
+                  echo "<div class='list-pdf'>";
                     foreach ($posts_by_year_month[$year][$month] as $post_id) {
                         $post = get_post($post_id);
                         setup_postdata($post);
@@ -97,6 +97,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                             <span>Publié le <?= $date ?></span>
                         </div>
             <?php
+                      echo "</div>";
                     }
                     wp_reset_postdata();
                 }
@@ -104,7 +105,6 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
             ?>
         </div>
     </div>
-
 
     <div class="right">
         <div class="form-item-document-year">
@@ -128,7 +128,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
             </form>
         </div>
     </div>
-
+  </div>
 </div>
 
 <?php get_footer(); ?>

@@ -14,6 +14,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
     <?php get_template_part('template-parts/banner-list');  ?>
     <?php get_template_part('template-parts/list-pages-template');  ?>
 
+  <div class="wrap-list-pdf">
     <div class="bloc-left">
 
         <div class="list-presse">
@@ -84,7 +85,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
             ?>
                     <p><?= $typeTring ?></p>
                     <?php
-
+                  echo "<div class='list-pdf'>";
                     foreach ($posts_by_year_month[$year][$type] as $post_id) {
                         $post = get_post($post_id);
                         setup_postdata($post);
@@ -101,9 +102,10 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
                                 <a href="<?= get_permalink($post_id) ?>"> <?= get_the_title($post_id) ?></a>
                             <?php
                             } ?>
-                            <span>Publié le <?= $date ?></span>
+                            <span class="date">Publié le <?= $date ?></span>
                         </div>
             <?php
+                      echo "</div>";
                     }
                     wp_reset_postdata();
                 }
@@ -135,6 +137,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID());
             </form>
         </div>
     </div>
+  </div>
 
 </div>
 

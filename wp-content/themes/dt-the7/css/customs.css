@@ -1,0 +1,230 @@
+.banner {
+  padding: 20px;
+  position: relative;
+  min-height: 250px;
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+.banner:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner .title {
+  position: relative;
+  z-index: 1;
+}
+.banner .title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+.banner .brc {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  z-index: 9;
+}
+@media screen and (max-width: 767px) {
+  .banner .brc {
+    display: none;
+  }
+}
+.banner .brc ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+}
+.banner .brc li {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+}
+.banner .brc li:not(:last-child):after {
+  content: "\f007";
+  font-family: icomoon-the7-font;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 8px;
+  line-height: 14px;
+  position: absolute;
+  right: -19px;
+  top: 6px;
+}
+.banner .brc li a {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+.banner .brc li a:hover {
+  text-decoration: underline;
+}
+
+.page-list-pdf .wf-container-main {
+  display: block !important;
+}
+.page-list-pdf .list-page-template {
+  padding: 30px 0;
+}
+.page-list-pdf .list-page-template > ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 30px;
+  margin: 0;
+  position: relative;
+}
+.page-list-pdf .list-page-template > ul.active .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+@media screen and (max-width: 767px) {
+  .page-list-pdf .list-page-template > ul > li.active {
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-list-pdf .list-page-template > ul > li.active a:after {
+    content: "\f007";
+    font-family: icomoon-the7-font;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 8px;
+    line-height: 14px;
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+  }
+}
+.page-list-pdf .list-page-template > ul a {
+  text-decoration: none;
+  color: #333;
+}
+@media screen and (min-width: 768px) {
+  .page-list-pdf .list-page-template > ul a:hover {
+    text-decoration: underline;
+  }
+}
+.page-list-pdf .list-page-template .dropdown {
+  width: 100%;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #000;
+  z-index: 99;
+  padding: 20px 15px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-30px);
+  transition: all 0.3s;
+  list-style: none;
+  margin: 0;
+}
+.page-list-pdf .list-page-template .dropdown li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.page-list-pdf .list-page-template .dropdown li a {
+  color: #fff;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrap-list-pdf {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+}
+.wrap-list-pdf .right {
+  text-align: right;
+}
+@media screen and (min-width: 1024px) {
+  .wrap-list-pdf .right {
+    padding-left: 100px;
+  }
+}
+.wrap-list-pdf .right select {
+  border-color: #333;
+  color: #333;
+}
+.wrap-list-pdf .list-presse .year {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 3px solid #000;
+  margin: 24px 0 19px;
+  color: #333;
+}
+.wrap-list-pdf .list-presse .month {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00aeef;
+  margin: 24px 0 0;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.wrap-list-pdf .list-presse .title-item-month {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 18px;
+}
+.wrap-list-pdf .list-presse .title-item-month:not(:last-child) {
+  border-bottom: 1px solid #b8b9ba;
+}
+.wrap-list-pdf .list-presse .title-item-month .icon {
+  background: url(../images/icon-pdf.png) no-repeat;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.wrap-list-pdf .list-presse .title-item-month a {
+  margin-bottom: 4px;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  line-height: 1.2;
+}
+.wrap-list-pdf .list-presse .title-item-month a:hover {
+  text-decoration: underline;
+}
+.wrap-list-pdf .list-presse .title-item-month .date {
+  font-size: 12px;
+  color: #333;
+}
+
+/*# sourceMappingURL=customs.css.map */
