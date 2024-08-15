@@ -1,5 +1,12 @@
 <?php
 
+function athena_scripts()
+{
+	wp_enqueue_style('custom-style-custom', get_stylesheet_directory_uri() . '/css/customs.css', array(), null);
+}
+
+add_action('wp_enqueue_scripts', 'athena_scripts');
+
 function convertMonthNumberToFrench($monthNumber) {
     $monthsInFrench = array(
         1  => 'Janvier',
