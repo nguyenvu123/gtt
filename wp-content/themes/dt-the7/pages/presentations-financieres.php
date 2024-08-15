@@ -13,7 +13,7 @@ get_header();
 
   <?php get_template_part('template-parts/banner-list'); ?>
   <?php get_template_part('template-parts/list-pages-template'); ?>
-  <div class="wrap-item-pdf">
+  <div class="wrap-list-pdf">
     <div class="bloc-left">
 
       <div class="list-presse">
