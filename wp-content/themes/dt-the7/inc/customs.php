@@ -72,7 +72,7 @@ function add_custom_body_class($classes) {
     $template = get_post_meta(get_the_ID(), '_wp_page_template', true);
 
     // Check if the template is 'pages/essai-gratuit.php'
-    if ($template == 'pages/assemblee-generale.php' || $template == 'pack-investisseurs.php' || $template == 'pages/presentations-financieres.php' || $template == 'pages/presse.php' || $template == 'pages/publications-techniques.php') {
+    if ($template == 'pages/assemblee-generale.php' || $template == 'pages/pack-investisseurs.php' || $template == 'pages/presentations-financieres.php' || $template == 'pages/presse.php' || $template == 'pages/publications-techniques.php') {
         // Add custom class 'essai-gratuit' to the body classes array
         $classes[] = 'page-list-pdf';
     }

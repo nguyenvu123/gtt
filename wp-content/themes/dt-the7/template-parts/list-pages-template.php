@@ -21,7 +21,7 @@
             <li class="<?php if (is_page_template('pages/assemblee-generale.php')) echo 'active'; ?>"><a href="<?= $generale_link['url'] ?>"><?= $generale_link['title']  ?></a></li>
         <?php endif; ?>
         <?php if ($investisseurs): ?>
-            <li class="<?php if (is_page_template('pages/pack-investisseurs.php')) echo 'active'; ?>"><a href="<?= $investisseurs['url'] ?>"><?= $investisseurs['title']  ?></a></li>
+            <li class="<?php if (is_page_template('pack-investisseurs.php')) echo 'active'; ?>"><a href="<?= $investisseurs['url'] ?>"><?= $investisseurs['title']  ?></a></li>
         <?php endif; ?>
     </ul>
 </div>
