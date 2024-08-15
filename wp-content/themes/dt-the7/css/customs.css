@@ -85,6 +85,9 @@
   text-decoration: underline;
 }
 
+.page-list-pdf .fancy-header > .wf-wrap {
+  display: none !important;
+}
 .page-list-pdf .wf-container-main {
   display: block !important;
 }
@@ -192,15 +195,17 @@
   padding-bottom: 10px;
   text-transform: capitalize;
 }
+.wrap-list-pdf .item-pdf {
+  margin-bottom: 18px;
+}
+.wrap-list-pdf .item-pdf:not(:last-child) .title-item-month {
+  border-bottom: 1px solid #b8b9ba;
+}
 .wrap-list-pdf .title-item-month {
   position: relative;
   padding-left: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 18px;
-}
-.wrap-list-pdf .title-item-month:not(:last-child) {
-  border-bottom: 1px solid #b8b9ba;
 }
 .wrap-list-pdf .title-item-month .icon {
   background: url(../images/icon-pdf.png) no-repeat;
