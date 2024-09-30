@@ -7,37 +7,29 @@ $args = array(
     'post_status'    => 'publish',
     'order'          => 'DESC',
     'posts_per_page' => -1,
-    'meta_query'     => array(
+    'tax_query'     => array(
         'relation' => 'OR',
         array(
-            'key'     => 'document_type',
-            'value'   => '83',
-            'compare' => 'LIKE',
+            'taxonomy'     => 'taxo_document',
+            'field'   => 'term_id',
+            'terms' => 834,
         ),
         array(
-            'key'     => 'document_type',
-            'value'   => '62',
-            'compare' => 'LIKE',
-        ),
-
-        array(
-            'key'     => 'document_type',
-            'value'   => '65',
-            'compare' => 'LIKE',
+            'taxonomy'     => 'taxo_document',
+            'field'   => 'term_id',
+            'terms' => 835,
         ),
         array(
-            'key'     => 'document_type',
-            'value'   => '67',
-            'compare' => 'LIKE',
+            'taxonomy'     => 'taxo_document',
+            'field'   => 'term_id',
+            'terms' => 836,
         ),
         array(
-            'key'     => 'document_type',
-            'value'   => '69',
-            'compare' => 'LIKE',
+            'taxonomy'     => 'taxo_document',
+            'field'   => 'term_id',
+            'terms' => 837,
         ),
-
     ),
-
 );
 
 $query = new WP_Query($args);
@@ -51,7 +43,8 @@ if ($query->have_posts()) {
         $year = get_field('doc_published_date');
         $date = new DateTime($year);
         $year = $date->format('Y');
-        $document = get_field('document_type');
+        $document_taxo = get_the_terms(get_the_ID(), 'taxo_document');
+        $document[] = $document_taxo[0]->name;
 
         if ($year_filter === 'All' || $year === $year_filter) {
 
@@ -79,14 +72,16 @@ foreach ($years as $year) {
     echo "<p class='year'>{$year}</p>";
 
     foreach ($types as $type) {
-        $typeTring = convertType($type);
+                
 
-?>
-        <p><?= $typeTring ?></p>
-        <?php
-        foreach ($posts_by_year_month[$year][$document[0]] as $post_id) {
+        echo "<h3 class='month'>{$type}</h3>";
+        echo "<div class='list-pdf'>";
+        foreach ($posts_by_year_month[$year][$type] as $post_id) {
             $post = get_post($post_id);
-            $date =  get_field('date_effective');
+            $date =  get_field('doc_published_date');
+            if(!empty($date)) {
+                $date = new Datetime($date);
+            }
             $doc_description =  get_field('doc_description');
             $doc_document = get_field('doc_document');
         ?>
@@ -100,10 +95,13 @@ foreach ($years as $year) {
                     <a href="<?= get_permalink($post_id) ?>"> <?= get_the_title($post_id) ?></a>
                 <?php
                 } ?>
-                <span>Publié le <?= $date ?></span>
+                <?php if(!empty($date)) : ?>
+                    <span class="date"><?php echo __('Published on') . ' ' . $date->format($date_format) ?></span>
+                <?php endif; ?>
             </div>
 <?php
         }
+        echo "</div>";
     }
 }
 

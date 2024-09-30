@@ -6,16 +6,18 @@ $args = array(
     'post_status'    => 'publish',
     'order'          => 'DESC',
     'posts_per_page' => -1,
-    'meta_query'     => array(
+    'tax_query'     => array(
         array(
-            'key'     => 'document_type',
-            'value'   => '50',
-            'compare' => 'LIKE',
+            'taxonomy'     => 'taxo_document',
+            'field'   => 'term_id',
+            'terms' => 832,
         ),
     ),
 );
-
 $query = new WP_Query($args);
+
+$current_language = get_locale();
+$date_format = ($current_language == 'fr_FR') ? 'Y-m-d - H:i' : 'Y-m-d - H:i';
 
 $posts_by_year_month = [];
 if ($query->have_posts()) {
@@ -49,7 +51,7 @@ rsort($years);
 
 foreach ($years as $year) {
     $months = array_keys($posts_by_year_month[$year]);
-    sort($months);
+    rsort($months);
 
     echo "<p class='year'>{$year}</p>";
 
@@ -60,7 +62,10 @@ foreach ($years as $year) {
         echo "<div class='list-pdf'>";
         foreach ($posts_by_year_month[$year][$month] as $post_id) {
             $post = get_post($post_id);
-            $date =  get_field('date_effective');
+            $date = get_field('date_effective');
+            if(!empty($date)) {
+                $date = new Datetime($date);
+            }
             $doc_description =  get_field('doc_description');
             $doc_document = get_field('doc_document');
 ?>
@@ -74,7 +79,9 @@ foreach ($years as $year) {
                     <a href="<?= get_permalink($post_id) ?>"> <?= get_the_title($post_id) ?></a>
                 <?php
                 } ?>
-                <span>Publié le <?= $date ?></span>
+                <?php if(!empty($date)) : ?>
+                    <span class="date"><?php echo __('Published on') . ' ' . $date->format($date_format) ?></span>
+                <?php endif; ?>
             </div>
 <?php
         }
@@ -83,6 +90,6 @@ foreach ($years as $year) {
 }
 
 if (empty($posts_by_year_month)) {
-    echo "<p>No posts found.</p>";
+    echo "<p>" . __('No posts found.') . "</p>";
 }
 ?>

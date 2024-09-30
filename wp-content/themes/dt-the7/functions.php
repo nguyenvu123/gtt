@@ -22,11 +22,11 @@ if ( ! isset( $content_width ) ) {
 /***********************
 RESOLVE ISSUE WITH ACF DATE FIELDS NOT RETURNING INFORMATION USING THE WP TIMEZONE
 ***********************/
-add_filter('date_i18n', function ($date, $format, $timestamp, $gmt) { 
+/*add_filter('date_i18n', function ($date, $format, $timestamp, $gmt) { 
 	if ( is_admin() )
 		return $date;
 	return wp_date($format, $timestamp); 
-}, 99, 4);
+}, 99, 4);*/
 
 /**
  * Initialize theme.
