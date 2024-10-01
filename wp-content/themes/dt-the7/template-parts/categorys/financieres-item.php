@@ -19,7 +19,7 @@ $args = array(
 $query = new WP_Query($args);
 
 $current_language = get_locale();
-$date_format = ($current_language == 'fr_FR') ? 'd/m/Y H:i:s' : 'm/d/Y H:i:s';
+$date_format = ($current_language == 'fr_FR') ? 'Y-m-d - H:i' : 'Y-m-d - H:i';
 
 $posts_by_year_month = [];
 if ($query->have_posts()) {

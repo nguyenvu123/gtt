@@ -18,30 +18,30 @@ $args = array(
 	'tax_query'     => array(
 			'relation' => 'OR',
 			array(
-					'taxonomy'     => 'taxo_document',
-					'field'   => 'term_id',
-					'terms' => 831,
+				'taxonomy'     => 'taxo_document',
+				'field'   => 'term_id',
+				'terms' => 834,
 			),
 			array(
-					'taxonomy'     => 'taxo_document',
-					'field'   => 'term_id',
-					'terms' => 842,
+				'taxonomy'     => 'taxo_document',
+				'field'   => 'term_id',
+				'terms' => 835,
 			),
 			array(
 				'taxonomy'     => 'taxo_document',
 				'field'   => 'term_id',
 				'terms' => 836,
-		),
-		array(
+			),
+			array(
 				'taxonomy'     => 'taxo_document',
 				'field'   => 'term_id',
-				'terms' => 834,
-		),
-		array(
-			'taxonomy'     => 'taxo_document',
-			'field'   => 'term_id',
-			'terms' => 27,
-		),
+				'terms' => 837,
+			),
+			array(
+				'taxonomy'     => 'taxo_document',
+				'field'   => 'term_id',
+				'terms' => 842,
+			),
 	),
 );
 

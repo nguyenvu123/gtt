@@ -362,5 +362,5 @@ add_action( 'rest_api_init', 'the7_rest_api_init' );
  * @return array
  */
 function presscore_get_pages_with_basic_meta_boxes() {
-	return apply_filters( 'presscore_pages_with_basic_meta_boxes', array( 'page', 'post' ) );
+	return apply_filters( 'presscore_pages_with_basic_meta_boxes', array( 'page', 'post', 'document','news') );
 }

@@ -2,6 +2,7 @@
   padding: 20px;
   position: relative;
   min-height: 250px;
+  display: none !important;
 }
 @media screen and (min-width: 768px) {
   .banner {
@@ -85,9 +86,6 @@
   text-decoration: underline;
 }
 
-.page-list-pdf .fancy-header > .wf-wrap {
-  display: none !important;
-}
 .page-list-pdf .wf-container-main {
   display: block !important;
 }
@@ -228,6 +226,10 @@
 .wrap-list-pdf .title-item-month .date {
   font-size: 12px;
   color: #333;
+}
+
+.document-template-default .inline-header {
+  background-color: rgb(0, 56, 105);
 }
 
 /*# sourceMappingURL=customs.css.map */

@@ -99,3 +99,15 @@ function add_custom_body_class($classes) {
     return $classes;
 }
 add_filter('body_class', 'add_custom_body_class');
+
+
+function the7_force_page_header_options_for_document( $supported_post_types ) {
+    $supported_post_types[] = 'document';
+    return $supported_post_types;
+}
+add_filter( 'the7_header_options_supported_post_types', 'the7_force_page_header_options_for_document' );
+
+function the7_add_page_header_options_to_custom_post_types() {
+    add_post_type_support( 'document', array( 'page-attributes', 'custom-fields' ) );
+}
+add_action( 'init', 'the7_add_page_header_options_to_custom_post_types' );

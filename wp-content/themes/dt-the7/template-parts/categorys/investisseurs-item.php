@@ -29,11 +29,17 @@ $args = array(
             'field'   => 'term_id',
             'terms' => 837,
         ),
+        array(
+            'taxonomy'     => 'taxo_document',
+            'field'   => 'term_id',
+            'terms' => 842,
+        ),
     ),
 );
 
 $query = new WP_Query($args);
-
+$current_language = get_locale();
+$date_format = ($current_language == 'fr_FR') ? 'Y-m-d - H:i' : 'Y-m-d - H:i';
 $posts_by_year_month = [];
 if ($query->have_posts()) {
     while ($query->have_posts()) {
@@ -44,9 +50,13 @@ if ($query->have_posts()) {
         $date = new DateTime($year);
         $year = $date->format('Y');
         $document_taxo = get_the_terms(get_the_ID(), 'taxo_document');
-        $document[] = $document_taxo[0]->name;
-
         if ($year_filter === 'All' || $year === $year_filter) {
+
+            $document = [];
+
+            if ($document_taxo && !is_wp_error($document_taxo)) {
+                $document[] = $document_taxo[0]->name;
+            }
 
             if (!isset($posts_by_year_month[$year])) {
                 $posts_by_year_month[$year] = [];
@@ -72,19 +82,19 @@ foreach ($years as $year) {
     echo "<p class='year'>{$year}</p>";
 
     foreach ($types as $type) {
-                
+
 
         echo "<h3 class='month'>{$type}</h3>";
         echo "<div class='list-pdf'>";
         foreach ($posts_by_year_month[$year][$type] as $post_id) {
             $post = get_post($post_id);
             $date =  get_field('doc_published_date');
-            if(!empty($date)) {
+            if (!empty($date)) {
                 $date = new Datetime($date);
             }
             $doc_description =  get_field('doc_description');
             $doc_document = get_field('doc_document');
-        ?>
+?>
 
             <div class="title-item-month">
                 <span class="icon"></span>
@@ -95,7 +105,7 @@ foreach ($years as $year) {
                     <a href="<?= get_permalink($post_id) ?>"> <?= get_the_title($post_id) ?></a>
                 <?php
                 } ?>
-                <?php if(!empty($date)) : ?>
+                <?php if (!empty($date)) : ?>
                     <span class="date"><?php echo __('Published on') . ' ' . $date->format($date_format) ?></span>
                 <?php endif; ?>
             </div>

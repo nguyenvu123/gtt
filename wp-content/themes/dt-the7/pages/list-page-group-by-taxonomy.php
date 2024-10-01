@@ -43,7 +43,6 @@ rsort($years);
 
 ?>
 
-
 <div id="content" class="content" role="main">
     <?php get_template_part('template-parts/banner-list');  ?>
     <div class="wrap-list-pdf">
@@ -53,7 +52,6 @@ rsort($years);
                 foreach ($years as $year) :
                     $types = array_keys($posts_by_year_month[$year]);
                     sort($types);
-
                     echo "<p class='year'>{$year}</p>";
                     foreach ($types as $type) :
                         echo "<h3 class='month'>{$type}</h3>";

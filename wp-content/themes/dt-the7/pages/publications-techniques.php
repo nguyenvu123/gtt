@@ -10,7 +10,7 @@ get_header();
 
 $thumb = get_the_post_thumbnail_url(get_the_ID());
 $current_language = get_locale();
-$date_format = ($current_language == 'fr_FR') ? 'd/m/Y' : 'm/d/Y';
+$date_format = ($current_language == 'fr_FR') ? 'Y-m-d - H:i' : 'Y-m-d - H:i';
 $ajax_filter = 'filter_techniques';
 
 $args = array(
