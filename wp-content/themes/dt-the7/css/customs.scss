@@ -269,3 +269,22 @@
     }
   }
 }
+
+.articles-list  article .blog-media {
+  overflow: initial;
+}
+
+.sidebar-right {
+  .content {
+    p {
+      color: #000;
+    }
+    strong {
+      color: #002060;
+    }
+
+    a {
+      color: blue;
+    }
+  }
+}

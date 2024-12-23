@@ -2,7 +2,6 @@
   padding: 20px;
   position: relative;
   min-height: 250px;
-  display: none !important;
 }
 @media screen and (min-width: 768px) {
   .banner {
@@ -86,6 +85,9 @@
   text-decoration: underline;
 }
 
+.page-list-pdf .fancy-header > .wf-wrap {
+  display: none !important;
+}
 .page-list-pdf .wf-container-main {
   display: block !important;
 }
@@ -228,8 +230,18 @@
   color: #333;
 }
 
-.document-template-default .inline-header {
-  background-color: rgb(0, 56, 105);
+.articles-list article .blog-media {
+  overflow: initial;
+}
+
+.sidebar-right .content p {
+  color: #000;
+}
+.sidebar-right .content strong {
+  color: #002060;
+}
+.sidebar-right .content a {
+  color: blue;
 }
 
 /*# sourceMappingURL=customs.css.map */
