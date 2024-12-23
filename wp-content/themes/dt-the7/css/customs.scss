@@ -276,30 +276,14 @@
 
 .sidebar-right {
   .content .post .entry-content {
-    .wpb_text_column.wpb_content_element {
-      p {
-        color: #000;
+    color: #000;
 
-        a {
-          color: blue;
-        }
-
-        strong {
-          color: #002060;
-        }
-      }
-    }
-    > p {
-      color: #000;
-
-      a {
-        color: blue;
-      }
-
-      strong {
-        color: #002060;
-      }
+    a:not(.vc_general) {
+      color: blue;
     }
 
+    strong {
+      color: #002060;
+    }
   }
 }
