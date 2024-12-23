@@ -275,16 +275,16 @@
 }
 
 .sidebar-right {
-  .content {
+  .content .wpb_text_column.wpb_content_element .wpb_wrapper {
     p {
       color: #000;
+
+      a {
+        color: blue;
+      }
     }
     strong {
       color: #002060;
-    }
-
-    a {
-      color: blue;
     }
   }
 }

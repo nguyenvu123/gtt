@@ -234,14 +234,14 @@
   overflow: initial;
 }
 
-.sidebar-right .content p {
+.sidebar-right .content .wpb_text_column.wpb_content_element .wpb_wrapper p {
   color: #000;
 }
-.sidebar-right .content strong {
-  color: #002060;
-}
-.sidebar-right .content a {
+.sidebar-right .content .wpb_text_column.wpb_content_element .wpb_wrapper p a {
   color: blue;
+}
+.sidebar-right .content .wpb_text_column.wpb_content_element .wpb_wrapper strong {
+  color: #002060;
 }
 
 /*# sourceMappingURL=customs.css.map */
